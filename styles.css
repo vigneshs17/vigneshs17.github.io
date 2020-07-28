@@ -1,0 +1,84 @@
+body, ul, li, a{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    text-align: center;
+    color: rgb(46, 46, 46);
+}
+
+h2, h3, h4, h5 {
+    font-family: arial;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(50, 50, 50);
+}
+
+.banner {
+    position: sticky;
+    height: 80px;
+    background-color: rgb(150, 150, 150);
+    top: 0;
+    text-align: center;
+}
+
+
+nav {
+    padding: 20px;
+    background-color: rgb(200, 200, 200);
+    position: sticky;
+    top: 80px;
+}
+nav ul {
+    white-space: nowrap;
+    text-decoration: none;
+}
+nav li {
+    display: inline-block;
+    width: 17%;
+    padding: 10px;
+}
+
+nav li a:hover {
+    font-weight: bold;
+}
+
+form {
+    text-align: left;
+    margin: 50px;
+}
+
+
+input[type="name"] {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+input[type="email"] {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 200px;
+}
+
+input[type="message"] {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 400px;
+    padding: 0 0 0 0;
+    height: 200px;
+}
+
+input[type="button"] {
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+@media screen and (max-width: 1400px) {
+    nav li {
+        font-size: 18px;
+    }
+}
