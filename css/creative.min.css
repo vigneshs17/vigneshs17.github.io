@@ -233,10 +233,9 @@ table {
     border-collapse: collapse
 }
 
-caption {
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    color: #6c757d;
+.caption {
+    padding: .75rem;
+    margin: 10px;
     text-align: left;
     caption-side: bottom
 }
@@ -524,10 +523,12 @@ mark {
 
 .img-thumbnail {
     padding: .25rem;
+    margin: 0.25rem;
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: .25rem;
-    max-width: 100%;
+    max-width: 90%;
+    max-height: 90%;
     height: auto
 }
 
